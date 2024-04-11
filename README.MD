@@ -51,7 +51,7 @@ Follow these steps to run the Spring Boot application:
    Please note that the H2 database is an in-memory database used for development purposes.
 
 6. Swagger Documentation UI at http://localhost:8080/api/v1/swagger-ui/index.html
-         production: https://invoice-hrded74ysa-uc.a.run.app//api/v1/swagger-ui/index.html
+         production: https://invoice-hrded74ysa-uc.a.run.app/api/v1/swagger-ui/index.html
    
    
 

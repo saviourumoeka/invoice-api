@@ -13,7 +13,7 @@ RUN mvn package -DskipTests
 FROM amazoncorretto:21-alpine3.17
 
 # Copy the jar to the production image from the builder stage.
-COPY --from=builder /app/target/productAPI*.jar /productAPI.jar
+COPY --from=builder /app/target/invoiceAPI*.jar /invoiceAPI.jar
 
 # Run the web service on container startup.
 CMD ["java", "-Djava.security.egd=file:/dev/./urandom", "-jar", "/invoiceAPI.jar"]
