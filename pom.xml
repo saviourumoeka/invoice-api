@@ -9,7 +9,7 @@
         <relativePath/>
     </parent>
     <groupId>com.invoice</groupId>
-    <artifactId>InvoiceAPI</artifactId>
+    <artifactId>invoiceAPI</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>invoiceAPI</name>
     <description>Service to generate invoices and payment links which is sent to customers.</description>
