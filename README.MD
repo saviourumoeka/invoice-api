@@ -42,7 +42,7 @@ Follow these steps to run the Spring Boot application:
 
 5. **Access the H2 Database Console:**
 
-   The H2 database console is available at [http://localhost:8080/h2-console](http://localhost:8080/h2-console). Use the following details to log in:
+   The H2 database console is available at [http://localhost:8080/api/v1/h2-console](http://localhost:8080/api/v1/h2-console). Use the following details to log in:
 
     - JDBC URL: `jdbc:h2:mem:testdb`
     - Username: `sa`
@@ -51,7 +51,7 @@ Follow these steps to run the Spring Boot application:
    Please note that the H2 database is an in-memory database used for development purposes.
 
 6. Swagger Documentation UI at http://localhost:8080/api/v1/swagger-ui/index.html
-         production: https://invoice-hrded74ysa-uc.a.run.app//api/v1swagger-ui/index.html
+         production: https://invoice-hrded74ysa-uc.a.run.app//api/v1/swagger-ui/index.html
    
    
 
