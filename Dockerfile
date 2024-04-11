@@ -16,4 +16,4 @@ FROM amazoncorretto:21-alpine3.17
 COPY --from=builder /app/target/productAPI*.jar /productAPI.jar
 
 # Run the web service on container startup.
-CMD ["java", "-Djava.security.egd=file:/dev/./urandom", "-jar", "/InvoiceAPI.jar"]
+CMD ["java", "-Djava.security.egd=file:/dev/./urandom", "-jar", "/invoiceAPI.jar"]
